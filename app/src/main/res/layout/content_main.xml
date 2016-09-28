@@ -12,8 +12,8 @@
     tools:context="calculator.cxcxk.com.calendar.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <calculator.cxcxk.com.calendar.CalendarView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+         />
 </RelativeLayout>
