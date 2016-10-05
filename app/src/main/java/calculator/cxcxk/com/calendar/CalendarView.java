@@ -349,6 +349,7 @@ public class CalendarView extends View {
                         }else if(x >= nextX && x <= nextX + pathWidth){
                             if(y >= nextY && y <= nextY + pathHeight){
                                 this.startAnimation(enterSet);
+                                //this.setTranslationX(-getWidth());
                                 calendar.add(Calendar.MONTH,1);
                                 dateText = format.format(calendar.getTime());
                                 isClick = false;
